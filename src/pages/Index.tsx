@@ -1,11 +1,11 @@
-import HeroSection from "@/components/HeroSection";
+ import HeroSection from "@/components/HeroSection";
 import PrototypeSection from "@/components/PrototypeSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import DemoSection from "@/components/DemoSection";
 import ImpactSection from "@/components/ImpactSection";
 import TechStackSection from "@/components/TechStackSection";
-import TeamSection from "@/components/TeamSection";
-import ContactSection from "@/components/ContactSection";
+// import TeamSection from "@/components/TeamSection";
+// import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
   return (
@@ -16,8 +16,8 @@ const Index = () => {
       <DemoSection />
       <ImpactSection />
       <TechStackSection />
-      <TeamSection />
-      <ContactSection />
+    {/* <TeamSection /> */}
+    {/* <ContactSection /> */}
     </div>
   );
 };
